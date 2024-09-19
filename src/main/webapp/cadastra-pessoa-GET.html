@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Pessoas</title>
+</head>
+<body>
+<form action="cadastraPessoaGET">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+    <br>
+    <label for="sobrenome">Sobrenome:</label>
+    <input type="text" id="sobrenome" name="sobrenome">
+    <br>
+    <label for="cpf">NºCPF:</label>
+    <input type="text" id="cpf" name="cpf" required>
+    <br>
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    <label for="numerocelular">Telefone Celular:</label>
+    <input type="tel" id="numerocelular" name="numerocelular" required>
+    <br>
+    <label for="dataaniversario">Data de Aniversário:</label>
+    <input type="date" id="dataaniversario" name="dataaniversario">
+    <br>
+    <label for="dataintegracao">Data de Integração ao Laboratório:</label>
+    <input type="date" id="dataintegracao" name="dataintegracao">
+    <br>
+    <label for="curso">Curso:</label>
+    <select id="curso" name="curso">
+        <option value="Informatica">Informática</option>
+        <option value="Agroindustria">Agroindústria</option>
+        <option value="Química">Química</option>
+    </select>
+    <br>
+    <input type="submit" value="Cadastrar">
+    <input type="reset" value="Limpar">
+</form>
+</body>
+</html>
